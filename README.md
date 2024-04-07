@@ -1,6 +1,6 @@
 # PCB defects classification
 
-The project implements the task of detection and classification defects in printed circuit boards. A reference based method is used to detect defects, and an ensemble of three CNN models (`VGG16`, `ResNet-101`, `Inception v3`) is made to classify them.
+The project implements the task of detection and classification defects in printed circuit boards. A reference based method is used to detect defects, and an ensemble of three CNN models (`VGG16`, `EfficientNet`, `Inception v3`) is made to classify them.
 
 To combine classification models decision scores, a method based on the _fuzzy Choquet integral_ is used.
 
